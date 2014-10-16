@@ -98,7 +98,7 @@
 	$app->put('/usuarios/:id', function($idusuario) use($db, $app) {
 		$datosform = $app->request;
 
-		$consulta = $db->prepare("update usuarios set nombre=:nombre, email=:email, created_at=:alta where id=:id");
+		$consulta = $db->prepare("update usuarios set nombre=:nombre, email=:email, alta=:alta where id=:id");
 
 		$estado = $consulta->execute(
 			array(
