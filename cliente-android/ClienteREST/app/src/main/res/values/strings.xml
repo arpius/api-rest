@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cliente REST</string>
+    <string name="id">ID:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="email">Correo electrónico:</string>
+    <string name="alta">Fecha de alta:</string>
+    <string name="insertar">Insertar</string>
+    <string name="modificar">Modificar</string>
+    <string name="borrar">Borrar</string>
+    <string name="obtener">Obtener</string>
+    <string name="listar">Listar</string>
+    <string name="usuario_creado">Usuario creado correctamente.</string>
+    <string name="usuario_modificado">Usuario actualizado correctamente.</string>
+    <string name="usuario_borrado">Usuario eliminado correctamente.</string>
+    <string name="comprobar_id">Comprueba que el ID de usuario sea correcto.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
